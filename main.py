@@ -131,7 +131,7 @@ def main():
     predictions = fazer_previsoes(models, peso)
     
     # Exibir previsões
-    st.subheader("Quantidade necessária diária de nutrientes:")
+    st.subheader("Quantidade necessária de nutrientes:")
     for saida, value in predictions.items():
         st.write(f"{saida}: {value:.2f}")
     
