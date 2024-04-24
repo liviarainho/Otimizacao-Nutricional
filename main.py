@@ -15,7 +15,7 @@ def preparar_dados_alimentos(df_alimentos):
     colunas_transformar = ['Energia (kcal)', 'Proteina (g)', 'Lipideos (g)', 'Carboidrato (g)',
                            'Calcio (mg)', 'Ferro (mg)', 'Vitamina A (mg)', 'Vitamina C (mg)']
     
-    for coluna em colunas_transformar:
+    for coluna in colunas_transformar:
         df_alimentos[coluna] = pd.to_numeric(df_alimentos[coluna], errors='coerce')
         df_alimentos[coluna] = df_alimentos[coluna].fillna(0)
         df_alimentos[coluna] = df_alimentos[coluna].astype(int)
