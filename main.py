@@ -158,19 +158,19 @@ def main():
         for nome, quantidade in resultados["cafe"]:
             st.write(f"{nome}: {quantidade}")
         
-        st.write("\nLanche:")
+        st.write("\n**Lanche:**")
         for nome, quantidade in resultados["lanche"]:
             st.write(f"{nome}: {quantidade}")
         
-        st.write("\nAlmoço:")
+        st.write("\n**Almoço:**")
         for nome, quantidade in resultados["almoco"]:
             st.write(f"{nome}: {quantidade}")
         
-        st.write("\nJantar:")
+        st.write("\n**Jantar:**")
         for nome, quantidade in resultados["jantar"]:
             st.write(f"{nome}: {quantidade}")
         
-        st.write(f"\nTotal de Calorias: {resultados['total_calories']:.2f}")
+        st.write(f"\n**Total de Calorias:** {resultados['total_calories']:.2f}")
     else:
         st.write("Não foi possível encontrar uma solução viável.")
 
