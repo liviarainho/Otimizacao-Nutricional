@@ -109,7 +109,7 @@ def otimizar_dieta(df_alimentos, cafe, lanche, almoco, jantar, nutriente_necessa
 
 # Função principal para a aplicação Streamlit
 def main():
-    st.title("Otimização de Dieta")
+    st.title("Dieta Nutricional")
     
     # Carregar dados
     df_alimentos, df_necessidades = carregar_dados()
@@ -131,7 +131,7 @@ def main():
     predictions = fazer_previsoes(models, peso)
     
     # Exibir previsões
-    st.subheader("Previsões de Nutrientes")
+    st.subheader("Quantidade necessária diária de nutrientes:")
     for saida, value in predictions.items():
         st.write(f"{saida}: {value:.2f}")
     
