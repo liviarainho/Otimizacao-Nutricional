@@ -7,7 +7,7 @@ from pulp import LpVariable, LpProblem, lpSum, LpMinimize, LpStatus
 # Função para carregar dados dos arquivos
 def carregar_dados():
     df_alimentos = pd.read_excel("Informações Nutricionais - P1 O&S.xlsx")
-    df_necessidades = pd.read_excel("Quantidade Necessária.xlsx")
+    df_necessidades = pd.read_excel("Quantidade Necessária 4.xlsx")
     return df_alimentos, df_necessidades
 
 # Função para preparar dados de alimentos
