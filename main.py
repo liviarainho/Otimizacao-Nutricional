@@ -154,7 +154,7 @@ def main():
     if resultados["status"] == "Optimal":
         st.write("Solução Ótima Encontrada:")
         
-        st.write("\nCafé da Manhã:")
+        st.write("\n**Café da Manhã:**")
         for nome, quantidade in resultados["cafe"]:
             st.write(f"{nome}: {quantidade}")
         
