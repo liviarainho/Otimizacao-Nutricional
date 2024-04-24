@@ -163,11 +163,11 @@ def main():
             st.write(f"{nome}: {quantidade}")
         
         st.write("\nAlmoço:")
-        for nome, quantidade em resultados["almoco"]:
+        for nome, quantidade in resultados["almoco"]:
             st.write(f"{nome}: {quantidade}")
         
         st.write("\nJantar:")
-        for nome, quantidade em resultados["jantar"]:
+        for nome, quantidade in resultados["jantar"]:
             st.write(f"{nome}: {quantidade}")
         
         st.write(f"\nTotal de Calorias: {resultados['total_calories']:.2f}")
