@@ -1,5 +1,5 @@
 # Otimização nutricional
-<img src="https://github.com/user-attachments/assets/61be8219-f5e5-434e-b2df-58d09bc898f8" alt="image" width="100" height="100">
+<img src="https://github.com/user-attachments/assets/61be8219-f5e5-434e-b2df-58d09bc898f8" alt="image" width="100" height="130">
 
 ## Objetivo:
 O objetivo do projeto é desenvolver um software que utilize programação linear na otimização das quantidades necessárias de alimentos, com o objetivo de atender às necessidades nutricionais de um indivíduo adulto. A atividade começará com uma análise de uma planilha fornecida, contendo informações nutricionais de diversos alimentos
